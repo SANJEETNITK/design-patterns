@@ -2,9 +2,9 @@ Singleton pattern is a design solution where an application wants to have one an
 
 <pre>Table of Contents:
 
-<a href="" title="eager initialization">1. Singleton with eager initialization</a>
-<a href="" title="lazy_initialization">2. Singleton with lazy initialization</a>
-<a href="" title="static_block_initialization">3. Singleton with static block initialization</a>
-<a href="" title="bill_pugh_singleton">4. Singleton with bill pugh solution</a>
-<a href="" title="conclusion">5. Best approach for a singleton class</a>
+<a href="https://github.com/SANJEETNITK/design-patterns/blob/main/src/creational_design_patterns/singleton/EagerSingleton.java" title="eager initialization">1. Singleton with eager initialization</a>
+<a href="https://github.com/SANJEETNITK/design-patterns/blob/main/src/creational_design_patterns/singleton/LazySingleton.java" title="lazy_initialization">2. Singleton with lazy initialization</a>
+<a href="https://github.com/SANJEETNITK/design-patterns/blob/main/src/creational_design_patterns/singleton/StaticBlockSingleton.java" title="static_block_initialization">3. Singleton with static block initialization</a>
+<a href="https://github.com/SANJEETNITK/design-patterns/blob/main/src/creational_design_patterns/singleton/BillPughSingleton.java" title="bill_pugh_singleton">4. Singleton with bill pugh solution</a>
+<a href="https://github.com/SANJEETNITK/design-patterns/blob/main/src/creational_design_patterns/singleton/DemoSingleton.java" title="Demo Singleton">5. Best approach for a singleton class</a>
 </pre>
