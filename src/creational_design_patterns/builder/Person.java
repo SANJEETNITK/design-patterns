@@ -13,6 +13,10 @@ public class Person {
         this.phoneNumber = builder.phoneNumber;
     }
 
+    public static Builder builder(String name) {
+        return new Builder(name);
+    }
+
     // Getters...
 
     public static class Builder {
@@ -22,7 +26,7 @@ public class Person {
         private String phoneNumber;
 
         // name is mandatory
-        public Builder(String name) {
+        Builder(String name) {
             this.name = name;
         }
 
@@ -44,5 +48,15 @@ public class Person {
         public Person build() {
             return new Person(this);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
     }
 }
